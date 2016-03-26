@@ -44,7 +44,7 @@ html {
 }
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
-  max-height: 74px;
+  max-height: 55px;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
@@ -52,7 +52,7 @@ html {
 }
 .mbr-navbar--ss .mbr-navbar__brand-link:after,
 .mbr-navbar--ss .mbr-navbar__brand-img {
-  height: 74px;
+  height: 12px;
 }
 .mbr-navbar--ss:before,
 .mbr-navbar--ss .mbr-navbar__container {
@@ -60,7 +60,7 @@ html {
 }
 .mbr-navbar--xs .mbr-navbar__brand-link:after,
 .mbr-navbar--xs .mbr-navbar__brand-img {
-  height: 32px;
+  height: 22px;
 }
 .mbr-navbar--xs:before,
 .mbr-navbar--xs .mbr-navbar__container {
@@ -68,7 +68,7 @@ html {
 }
 .mbr-navbar--s .mbr-navbar__brand-link:after,
 .mbr-navbar--s .mbr-navbar__brand-img {
-  height: 48px;
+  height: 32px;
 }
 .mbr-navbar--s:before,
 .mbr-navbar--s .mbr-navbar__container {
@@ -76,7 +76,7 @@ html {
 }
 .mbr-navbar--m .mbr-navbar__brand-link:after,
 .mbr-navbar--m .mbr-navbar__brand-img {
-  height: 64px;
+  height: 42px;
 }
 .mbr-navbar--m:before,
 .mbr-navbar--m .mbr-navbar__container {
@@ -84,7 +84,7 @@ html {
 }
 .mbr-navbar--l .mbr-navbar__brand-link:after,
 .mbr-navbar--l .mbr-navbar__brand-img {
-  height: 96px;
+  height: 52px;
 }
 .mbr-navbar--l:before,
 .mbr-navbar--l .mbr-navbar__container {
@@ -92,7 +92,7 @@ html {
 }
 .mbr-navbar--xl .mbr-navbar__brand-link:after,
 .mbr-navbar--xl .mbr-navbar__brand-img {
-  height: 128px;
+  height: 55px;
 }
 .mbr-navbar--xl:before,
 .mbr-navbar--xl .mbr-navbar__container {
@@ -100,7 +100,7 @@ html {
 }
 .mbr-navbar--short .mbr-navbar__brand-link:after,
 .mbr-navbar--short .mbr-navbar__brand-img {
-  height: 40px;
+  height: 32px;
 }
 .mbr-navbar--short:before,
 .mbr-navbar--short .mbr-navbar__container {
@@ -112,7 +112,7 @@ html {
 @media (max-width: 767px) {
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
-    height: 31px;
+    height: 32px;
   }
   .mbr-navbar--short:before,
   .mbr-navbar--short .mbr-navbar__container {
@@ -470,6 +470,10 @@ html {
   width: 1px;
 }
 @media (max-width: 530px) {
+  .mbr-navbar--short .mbr-navbar__brand-link:after,
+  .mbr-navbar--short .mbr-navbar__brand-img {
+    height: 26px;
+  }
   .mbr-form {
     display: block;
     margin-top: -27px;
@@ -1572,9 +1576,12 @@ html {
 .mbr-number--inverse-price .mbr-number__right {
   display: inline;
 }
-.engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
+@media (max-width: 388px) {
+  .mbr-brand__name a {
+    font-size: 22px;
+  }
+  .mbr-navbar__brand-img {
+	height: 26px;
+  }
 }
+
