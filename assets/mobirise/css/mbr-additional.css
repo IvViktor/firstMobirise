@@ -15,7 +15,7 @@
   color: #ffffff;
 }
 .mbr-brand__name a {
-  font-size: 30px;
+  font-size: 25px;
 }
 #header1-1 .btn {
   font-family: 'Oswald', sans-serif;
@@ -44,4 +44,17 @@
 }
 #contacts3-11 .btn {
   font-size: 18px;
+}
+@media (max-width: 420px) {
+  .mbr-brand__name a {
+    font-size: 22px;
+  }
+  .mbr-navbar__brand-img {
+  height: 26px;
+  }
+}
+@media (max-width: 360px) {
+  .mbr-brand__name a {
+    font-size: 14px;
+  }
 }

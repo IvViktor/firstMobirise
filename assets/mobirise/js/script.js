@@ -115,7 +115,7 @@
             });
         });
         $(window).smartresize(function(){
-            if ($(window).width() > 991)
+            if ($(window).width() > 1200)
                 $('.mbr-navbar--auto-collapse .mbr-hamburger--open').click();
         }).keydown(function(event){
             if (27 == event.which) // ESC

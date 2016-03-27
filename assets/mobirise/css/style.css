@@ -280,7 +280,7 @@ html {
 .mbr-navbar--relative .mbr-navbar__section {
   background: #2c2c2c;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
     position: relative;
   }
@@ -1576,12 +1576,15 @@ html {
 .mbr-number--inverse-price .mbr-number__right {
   display: inline;
 }
-@media (max-width: 388px) {
-  .mbr-brand__name a {
-    font-size: 22px;
-  }
-  .mbr-navbar__brand-img {
-	height: 26px;
-  }
+.mbr-navbar__item a {
+  text-transform: uppercase;
 }
-
+.article-list{
+  list-style-type: none;
+}
+.article-list li {
+  margin: 20px;
+}
+.article-img:first-child {
+  margin: 40px auto;
+}
